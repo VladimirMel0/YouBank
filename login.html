@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login YouBank</title>
+    <link rel="stylesheet" href="/styles/login.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="texto">
+            <H1>Com YouBank</H1>
+            <h2>Você tem taxa zero para Investir</h2>
+            <p>Invista em renda fixa e variável</p><p> sem taxas de corretagem e custódia. </p>
+
+        </div>
+        <div class="cadastro">
+            <div class="card">
+                     <h1>Faça Login</h1>
+                     <div id="msgError"></div>
+                     <div class="placeFloat">
+                        <label id="labelCPF">CPF</label>
+                        <input id="CPF"  type="number" name="cpf" placeholder="CPF" required>
+                    </div> 
+                <div class="placeFloat">
+                    <label id= "labelSenha">Senha</label>
+                    <input id= "Senha" type="password" name="senha" placeholder="Senha" required>
+                </div>    
+                    <button onclick="entrar()" type="submit" >Entrar</button>
+                </div>
+            </div>     
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

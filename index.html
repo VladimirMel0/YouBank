@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouBank</title>
+    <script src="https://kit.fontawesome.com/06d226fe7a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/styles/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+
+        <header>
+            <div class="logoHome">
+                <img src="/assets/logotipo svg.png" alt="Logo You Bank for everyone">
+            </div>
+            <nav class="navhome">
+                <ul>
+                    <li><a href="#">Sobre nós</a></li>
+                    <li><a href="#">Para você</a></li>
+                    <li><a href="#">Para sua empresa</a></li>
+                    <li><a href="#">Suporte</a></li>
+                </ul>
+
+            </nav>
+        <div class="btn">
+            <a href="./login.html"> <i class="fa-solid fa-user"></i> Fazer Login</a>
+            <button onclick="window.location.href='/cadastro.html'" type="button">Cadastra-se</button>
+            </div>
+            <div  class="fas fa-bars"></div>
+
+        </header>
+
+        <main>
+                <div class="principal">
+                    <div class="conteudo">
+                        <h1>Com YouBank Faça Seu Dinheiro Render Mais</h1>
+                        <p>Use seu Dinheiro a hora que quiser e sem pperder o lucro. O Dinheiro
+                            rende 150% do CDI.
+                        </p>
+                    </div>
+                    <div class="imagem">
+                        <img src="/assets/woman.png" alt="mulher loira com cabelo cacheado">
+                    </div>
+
+                </div>
+
+             
+
+
+        </main>    
+
+        
+        <div class="765">
+            <div class="conteudo2">
+
+            </div>
+
+
+            <div class="container">
+                <!-- Pricing column -->
+                <div class="container__column">
+                    <img src="/assets/cart.png" alt="24 horas">
+            
+                    <h1>Conta e Cartão gratuitos</h1>
+                   <p>
+                       Ter uma conta não custa nada.<br>
+                       A conta é digital e sem tarifas de manutenção.
+                   </p>
+  
+                </div>
+            
+                <!-- Repeated pricing columns -->
+                <div class="container__column">
+                    <img src="/assets/$.png" alt="Cifrão">
+            
+                    <h1>Taxa zero para investir </h1>
+                   <p>
+                    Invista em renda fixa e variável sem taxa de corretagem e custódia.
+
+                   </p>
+  
+                </div>
+                <div class="container__column">
+                    <img src="/assets/24h.png" alt="Atendimento 24h">
+            
+                    <h1>Atendimento 24h</h1>
+                   <p>
+                       Ter uma conta não custa nada.<br>
+                       A conta é digital e sem tarifas de manutenção.
+                   </p>
+  
+                </div>
+            </div>
+      
+        </div>
+        
+    <footer>
+        <div class="rodapé">
+            <div class="social">
+                <div>
+                     <img src="./assets/logotipo svg.png" alt="Logo You Bank for everyone">
+                 </div>
+                <div class="redes">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                 </div>
+
+            </div>
+            <div class="institucional">
+                <h3>Institucional</h3>
+                <p>Quem somos </p>
+                <p>Como funciona</p>
+                <p>Asessoria YouBank</p>
+                <p>Seja YouBank</p>
+                <p>Blog</p>
+
+            </div>
+            <div class="produtos">
+                <h3>Produtos</h3>
+                <p>Pix</p>
+                <p>Renda Fixa</p>
+                <p>Tesouro Direto</p>
+                <p>Fundo de investimentos</p>
+                <p>Previdencia Privada</p>
+                
+
+            </div>
+            <div class="analises">
+                <h3>Análises</h3>
+                <p>Ações</p>
+                <p>Trader</p>
+                <p>Economia e Politica</p>
+
+                <h3>Suporte</h3>
+                <p>Sac</p>
+                <p>Ouvidoria</p>
+          
+
+            </div>
+        </div>    
+    </footer>    
+    
+
+    <script>
+        $(document).ready(function(){
+           $('.fa-bars').click(function(){
+               $(this).toggleClass('fa-times');
+               $('.navhome').toggleClass('navhome-toggle');
+           })
+   
+       });
+   
+    </script>
+    <script src="main.js"></script>
+</body>
+</html>
